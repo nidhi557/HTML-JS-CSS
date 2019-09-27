@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="product.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="noToWord.js"></script>
+</head>
+<body>
+
+<div id="header">
+	<a href="login.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJyReJASfPGZgEJ8G30wzAzwOUm_XfSmSyhEBWe0Y3Pt7zzKDtuA" id="logo"></a>
+	<h2 align="center" id="titleLogo">Acme Grocers</h2>
+</div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdFhiBr4hzvc5_WRJponqbDCQOcrxJF4UhAr6E4EyabGgCdHWY" id="cart">
+<h3 id="billingScr">Billing Screen</h3>
+<div id="data">
+	<div>
+		<form id="loadProduct">
+			PID: <input type="text" name="pId" id="pId" onfocus="this.value=''" onchange="loadProduct()"><br><br>
+			
+			<div id="invoice">
+			<pre>PID                PName             UnitPrice           Quantity            LineTotal</pre>
+			</div>
+		</form>
+		<dir id="dataDiv"></dir>
+	</div>
+	<div id="result">
+		<h4>Bill Total: &#8377</h4><h4 id="Total">0</h4>
+	</div>
+	<button id="print" onclick="print()">Print Receipt</button>
+</div>
+	
+</body>
+</html>

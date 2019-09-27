@@ -1,0 +1,175 @@
+h2 {
+    position: absolute;
+    top: 25px;
+    left: 550px;
+}
+input#password {
+    margin-left: 5px;
+}
+body {
+    font-family: sans-serif;
+    font-size: large;
+}
+input#load {
+    float: right;
+    position: relative;
+    top: -50px;
+}
+#header{
+	background-color: #aabbcc;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+#login{
+			border-top: 2px solid dimgray;
+      border-bottom: 2px solid dimgray;
+			padding: 40px;
+			margin: 100px;
+			position: relative;
+			top: 150px;
+		}
+
+#logo{
+			width:180px; 
+			float: left; 
+			position: absolute;
+			top: -30px; 
+			left: -30px;
+		}
+#logoBill{
+	    left: 421px;
+}
+#data{
+		border-top: 2px solid dimgray;
+    padding: 40px;
+    margin: 80px;
+    position: relative;
+    top: 150px;
+    border-bottom: 2px solid dimgray;
+		}		
+#result {
+    display: inline-flex;
+    position: relative;
+    left: 890px;
+    top: 55px;
+}
+pre {
+    font-size: 1.25em;
+    font-weight: 550;
+    background-color: #ddd;
+}
+h3#billingScr {
+    position: relative;
+    top: 221px;
+    left: 79px;
+}
+#empLog {
+  
+    display: flex;
+    position: absolute;
+    top: 190px;
+    left: 59px;
+}
+#empLog img{
+    width: 19%;
+    position: relative;
+    top: -6px;
+}
+#titleLogo{
+  background-color: #ddd;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+input {
+    font-size: 0.82em;
+    border: none;
+    border-bottom: 2px solid dimgray;
+    font-family: sans-serif;
+}
+p{
+	display: inline-flex;
+    padding-left: 50px;
+    padding-right: 95px;
+}
+#print{
+	position: relative;
+    top: 100px;
+    left: 832px;
+}
+
+#loadProduct input[id^='dP']{
+	border: none;
+	padding-top: 10px;
+	background-color: white;
+}
+#Receipt{
+	padding: 20px;
+}
+td{
+	padding: 10px;
+}
+tr{
+	padding: 10px;
+}
+input#pId {
+    width: 7%;
+    font-weight: 550;
+}
+#loadProduct input[id^='ip']{
+    margin-right: 126px;
+    margin-top: 5px;
+    width: 8%;
+}
+#loadProduct input[id^='dPLineCost'] {
+    font-weight: bold;
+}
+th {
+  background-color: #ddd;
+  padding: 10px;
+  
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+#total{
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 5px;
+    margin: -5px;	
+}
+div#billno {
+    position: relative;
+    top: 130px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+input[type=button], input[type=submit], input[type=reset], button {
+  background-color: #989292;
+  border: none;
+  color: black;
+  padding: 8px 13px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: initial;
+    font-weight: 580;
+}
+#invoice input {
+    font-weight: 550;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+img#cart {
+    width: 14%;
+    position: absolute;
+    right: 20px;
+    top: 104px;
+}
+table#Receipt {
+    width: 60%;
+    text-align: center;
+
+  }
